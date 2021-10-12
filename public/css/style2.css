@@ -1,0 +1,46 @@
+body{
+    background-image: url("../img/Bg2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+.save{
+    margin-top: 5rem;
+    justify-content: center;
+    display: flex;
+}
+
+.saveans{
+    justify-content: center;
+    margin: 1rem
+}
+
+.input{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.containerans{
+    display: flex;
+    justify-content: center;
+
+}
+
+.design{
+    justify-content: center;
+    margin: 1rem
+
+}

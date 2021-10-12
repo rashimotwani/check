@@ -1,0 +1,37 @@
+<div class="save button">
+    <button class="btn-dark btn-lg btn" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+          </svg>
+          <span style="padding-right: 1rem; ">Add Note</span>
+        
+    </button>
+  </div>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Note It Down</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="/notes" method="POST">
+              <div class="row Mname">
+                <label for="validationDefaultUsername" class="form-label">Add your Note</label>
+                <div class="input-group">
+                  <input type="text" placeholder="note" name="note" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" 
+                  required>
+                </div>
+              </div>
+  
+            
+                <div id="savinser"></div>
+                <button id="save" class="btn-sm btn-dark submit" type="submit" onclick="myfunction()" style="margin-top: 0.5rem;">Save</button>
+              
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  

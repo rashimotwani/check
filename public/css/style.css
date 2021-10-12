@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+body{
+    height:44rem ;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+.panel1{
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.heading{
+    
+    margin: 1.5rem;
+    text-align: left;
+    font-size: 6rem;
+    font-style: italic;
+
+}
+
+.content{
+    margin-left: 1.5rem;
+    text-align: left;
+
+}
