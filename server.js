@@ -75,7 +75,8 @@ passport.deserializeUser(function (id, done) {
 passport.use(new GoogleStrategy({
     clientID:     process.env.GOOGLE_CLIENT_ID,
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-    callbackURL: "http://localhost:5000/auth/google/notes",
+    // callbackURL: "http://localhost:5000/auth/google/notes",
+    callbackURL: "https://glacial-eyrie-31902.herokuapp.com/auth/google/notes",
     // callbackURL: "https://notejournal.herokuapp.com/auth/google/notes",
     // callbackURL: "https://limitless-sands-05271.herokuapp.com/auth/google/notes",
     // callbackURL: "https://morning-everglades-21513.herokuapp.com/auth/google/notes",
